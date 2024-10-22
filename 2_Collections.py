@@ -27,18 +27,10 @@ dict_list = []
 
 # Create list of  dictionaries
 for i in range(cnt_elements):
-    # Generate number of elements in the list item. Each dictionary can contain from 2 to 10 elements
-    n = random.randint(2, 10)
-    # Initiate dictionary element
-    dict_elem = {}
 
-    # Create dictionary element
-    for j in range(n):
-        # Generate key and value for the dictionary element
-        k = random.choice(string.ascii_lowercase)
-        v = random.randint(0, 100)
-        # Add the new element with key k and value v
-        dict_elem[k] = v
+    # Create dictionary element. Generate number of elements in the list item
+    # Generate key and value for the dictionary element and add the new element with key k and value
+    dict_elem = {random.choice(string.ascii_lowercase): random.randint(0, 100) for _ in range(random.randint(2, 10))}
 
     dict_list.append(dict_elem)
 
@@ -46,32 +38,30 @@ print(f"Number of list elements: {cnt_elements}")
 print(dict_list)
 
 # Task_2 Create one dictionary
+# Initializing result dictionary to store the combined result
 result_dict = {}
 
-# Counter to track the index of the dictionary
-index = 1
-
-# Iterate over the list of dictionaries
-for d in dict_list:
+# Iterating over the list of dictionaries with their index, starting from 1
+for index, d in enumerate(dict_list, start=1):
     for key, value in d.items():
-        # Check if the key (or a variant with an underscore) already exists in result_dict
-        matching_keys = [k for k in result_dict if k.startswith(key)]
-
-        if matching_keys:
-            # Find the existing key that matches the current key
-            existing_key = matching_keys[0]
-            # Update the key in the dictionary if the current value is larger
-            if value > result_dict[existing_key]:
-                new_key = f"{key}_{index}"
-                # Delete previously added element with this key
-                del result_dict[existing_key]
-                # Add new element with this key and updated number of dictionary
-                result_dict[new_key] = value
+        if key in result_dict:
+            # If key already exists, checking if current value is greater than the stored value
+            if value > result_dict[key][0]:
+                # Updating value and recording the dictionary index for renaming
+                result_dict[key] = (value, index)
         else:
-            # If the key is not already in the dictionary, add it
-            result_dict[key] = value
+            # Adding the key and value, and storing the dictionary index
+            result_dict[key] = (value, index)
 
-    # Increment the index after processing each dictionary
-    index += 1
+# Creating the final dictionary with renaming based on max value's index
+final_dict = {}
+for key, (value, idx) in result_dict.items():
+    if sum(k == key for d in dict_list for k in d.keys()) > 1:
+        # If the key appears in multiple dictionaries, rename it with the index of the dict with the max value
+        final_dict[f"{key}_{idx}"] = value
+    else:
+        # If the key appears only in one dictionary, keep it as is
+        final_dict[key] = value
 
-print(result_dict)
+print(final_dict)
+
