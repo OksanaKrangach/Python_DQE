@@ -44,7 +44,6 @@ class Publication:
         """
         print(f"{p_prompt} (end input with '{termination_symbol}' on a new line):")
         lines = []
-        current_line = ""
 
         while True:
             line = input()
@@ -177,7 +176,6 @@ class FileManager:
 
 def main():
     """Main function to handle user input and add publications to the file."""
-    fm = FileManager()
 
     print("\nWelcome to the User-Generated News Feed!")
     print("Please select the type of publication you want to add:")
@@ -185,6 +183,7 @@ def main():
     print("2. Private Ad")
     print("3. Joke")
 
+    fm = FileManager()
     base_publication = Publication("", "")
 
     while True:
