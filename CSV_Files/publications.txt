@@ -1,0 +1,36 @@
+News feed:
+News ----------------------------------------------
+This is an example of a news text that spans
+multiple lines and should be processed correctly.
+Austin, 2024/10/25  00:02
+
+Private ad ----------------------------------------
+I'm selling a slightly used bike in great
+condition. Contact me for more details! New line
+of the publication.
+Actual until: 2024/12/01, 36 days left
+
+Joke ----------------------------------------------
+Why don't skeletons fight each other? Because they
+don't have the guts!
+HashTag: #Humor Fun Index: ********* (9/10)
+
+News ----------------------------------------------
+Tourists explored an awesome church hidden inside
+a mountain cave covered by thick forests.
+Batangas, 2024/10/25  00:02
+
+Private ad ----------------------------------------
+30 magnificent clifftop towns to visit around the
+world. Travel with us.
+Actual until: 2024/11/01, 6 days left
+
+Joke ----------------------------------------------
+Why did the scarecrow win an award? Because he was
+outstanding in his field!
+HashTag: #Funnyjokes Fun Index: ********* (9/10)
+
+News ----------------------------------------------
+Top lego builders from around the world showcase
+creations at annual masterpiece
+Great_City, 2024/10/25  00:02
