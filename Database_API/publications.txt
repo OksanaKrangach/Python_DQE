@@ -1,0 +1,103 @@
+News feed:
+
+News ----------------------------------------------
+This is an example of a news text that spans
+multiple lines and should be processed correctly.
+Austin, 2024/10/27  19:34
+
+Private_ad ----------------------------------------
+I'm selling a slightly used bike in great
+condition. Contact me for more details! New line
+of the publication.
+Actual until: 2024/12/01, 34 days left
+
+Joke ----------------------------------------------
+Why don't skeletons fight each other? Because they
+don't have the guts!
+HashTag: #Humor Fun Index: ** (2/10)
+
+News ----------------------------------------------
+Tourists explored an awesome church hidden inside
+a mountain cave covered by thick forests.
+Batangas, 2024/10/27  19:34
+
+News ----------------------------------------------
+This is an example of a news text that spans
+multiple lines and should be processed correctly.
+Austin, 2024/10/27  19:34
+
+Private_ad ----------------------------------------
+I'm selling a slightly used bike in great
+condition. Contact me for more details! New line
+of the publication.
+Actual until: 2024/12/01, 34 days left
+
+Joke ----------------------------------------------
+Why don't skeletons fight each other? Because they
+don't have the guts!
+HashTag: #Humor Fun Index: **** (4/10)
+
+News ----------------------------------------------
+Tourists explored an awesome church hidden inside
+a mountain cave covered by thick forests.
+Batangas, 2024/10/27  19:34
+
+News ----------------------------------------------
+New technological breakthrough.
+Tech city, 2024/10/27  19:34
+
+Private_ad ----------------------------------------
+Selling: A brand-new laptop.
+Actual until: 2024/11/15, 18 days left
+
+Joke ----------------------------------------------
+Why did the computer go to the doctor? It had a
+virus!
+HashTag: #Funnyjoke Fun Index: ****** (6/10)
+
+News ----------------------------------------------
+Top lego builders from around the world showcase
+creations at annual masterpiece. Gallery in
+denmark.
+Billund, 2024/10/27  19:35
+
+Private_ad ----------------------------------------
+30 magnificent clifftop towns to visit around the
+world. Travel with us.
+Actual until: 2026/11/01, 734 days left
+
+Joke ----------------------------------------------
+Why did the scarecrow win an award? Because he was
+outstanding in his field!
+HashTag: #Funnyjoke Fun Index: *** (3/10)
+
+News ----------------------------------------------
+Top lego builders from around the world showcase
+creations at annual masterpiece. Gallery in
+denmark.
+Billund, 2024/10/27  19:35
+
+Private_ad ----------------------------------------
+30 magnificent clifftop towns to visit around the
+world. Travel with us.
+Actual until: 2026/11/01, 734 days left
+
+Joke ----------------------------------------------
+Why did the scarecrow win an award? Because he was
+outstanding in his field!
+HashTag: #Funnyjoke Fun Index: ********** (10/10)
+
+News ----------------------------------------------
+Global temperatures hit a record high, sparking
+concerns among scientists.
+Climate hub, 2024/10/27  19:36
+
+Private_ad ----------------------------------------
+Limited time offer! Get a brand-new coffee maker
+at a discounted price.
+Actual until: 2024/12/05, 38 days left
+
+Joke ----------------------------------------------
+Why did the golfer bring an extra pair of socks?
+In case he got a hole-in-one!
+HashTag: #Golfhumor Fun Index: ****** (6/10)
