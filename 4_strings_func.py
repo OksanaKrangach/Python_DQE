@@ -1,5 +1,4 @@
 import re
-from typing import List, Any
 
 
 # Function to convert text to lowercase
