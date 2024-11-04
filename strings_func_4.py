@@ -43,7 +43,7 @@ def insert_new_sentence(text, new_sentence, insertion_point):
 
 # Function to capitalize the first letter of each sentence
 def capitalize_sentences(text):
-    sentences = re.split(r'([.!?:]\s*)', text)
+    sentences = re.split(r'([.!?:#]\s*)', text)
     capitalized_sentences = []
 
     for i, part in enumerate(sentences):
@@ -61,7 +61,7 @@ def process_text(inp_text):
     lower_str = to_lower(inp_text)
 
     # Step 2: Calculate number of whitespace characters
-    whitespace_count = count_whitespace(init_text)
+    whitespace_count = count_whitespace(inp_text)
     print(f"Number of whitespace characters: {whitespace_count}\n")
 
     # Step 3: Replace ' iz ' with ' is '
@@ -86,7 +86,7 @@ def process_text(inp_text):
 # Run the main function
 if __name__ == "__main__":
     # Save text into variable
-    init_text = """homEwork:
+    inp_text = """homEwork:
  tHis iz your homeWork, copy these Text to variable.
 
 
@@ -102,4 +102,4 @@ if __name__ == "__main__":
  last iz TO calculate nuMber OF Whitespace characteRS in this Tex. caREFULL, not only Spaces, but ALL whitespaces. I got 87.
 """
 
-    process_text(init_text)
+    process_text(inp_text)
