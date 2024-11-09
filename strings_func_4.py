@@ -43,11 +43,12 @@ def insert_new_sentence(text, new_sentence, insertion_point):
 
 # Function to capitalize the first letter of each sentence
 def capitalize_sentences(text):
-    sentences = re.split(r'([.!?:#]\s*)', text)
-    capitalized_sentences = []
+    # Check if text contains only numbers or dates in 'YYYY/MM/DD' format
+    if re.match(r'^\d{4}/\d{2}/\d{2}$', text) or text.isdigit():
+        return text  # Return as-is if it's a date or numeric-only
 
-    for i, part in enumerate(sentences):
-        capitalized_sentences.append(part.capitalize())
+    sentences = re.split(r'([.!?:#]\s*)', text)
+    capitalized_sentences = [part.capitalize() for part in sentences]
 
     return ''.join(capitalized_sentences)
 
