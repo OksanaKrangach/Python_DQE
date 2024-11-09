@@ -1,0 +1,17 @@
+<Publications>
+    <Publication>
+        <Type>News</Type>
+        <Text>new teChnological breaKthrough.</Text>
+        <City>Tech City</City>
+    </Publication>
+    <Publication>
+        <Type>Private_ad</Type>
+        <Text>Selling a brAnd-new laPTop..</Text>
+        <Expiration_date>2024/11/15</Expiration_date>
+    </Publication>
+    <Publication>
+        <Type>Joke</Type>
+        <Text>Why did the coMPuter GO To the doctor? it haD a virus!</Text>
+        <Hashtag>FunnyJoke</Hashtag>
+    </Publication>
+</Publications>

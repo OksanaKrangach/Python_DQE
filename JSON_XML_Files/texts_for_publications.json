@@ -1,0 +1,17 @@
+[
+    {
+        "type": "News",
+        "text": "new teChnological breaKthrough.",
+        "city": "Tech City"
+    },
+    {
+        "type": "Private_ad",
+        "text": "Selling: a brAnd-new laPTop.",
+        "expiration_date": "2024/11/15"
+    },
+    {
+        "type": "Joke",
+        "text": "Why did the comPuter go to the doctor? It had a virus!",
+        "hashtag": "FunnyJoke"
+    }
+]

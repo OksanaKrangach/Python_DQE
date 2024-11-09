@@ -1,0 +1,79 @@
+News feed:
+
+News ----------------------------------------------
+This is an example of a news text that spans
+multiple lines and should be processed correctly.
+Austin, 2024/10/26  18:40
+
+Private_ad ----------------------------------------
+Limited time offer! Get a brand-new coffee maker
+at a discounted price.
+Actual until: 2024-12-05 00:00:00, 39 days left
+
+Joke ----------------------------------------------
+Why did the golfer bring an extra pair of socks?
+In case he got a hole-in-one!
+HashTag: #Golfhumor Fun Index: ********* (9/10)
+
+News ----------------------------------------------
+This is an example of a news text that spans
+multiple lines and should be processed correctly.
+Austin, 2024/10/26  18:40
+
+Private_ad ----------------------------------------
+I'm selling a slightly used bike in great
+condition. Contact me for more details! New line
+of the publication.
+Actual until: 2024/12/01, 35 days left
+
+Joke ----------------------------------------------
+Why don't skeletons fight each other? Because they
+don't have the guts!
+HashTag: #Humor Fun Index: ********* (9/10)
+
+News ----------------------------------------------
+Tourists explored an awesome church hidden inside
+a mountain cave covered by thick forests.
+Batangas, 2024/10/26  18:40
+
+Private_ad ----------------------------------------
+30 magnificent clifftop towns to visit around the
+world. Travel with us.
+Actual until: 2024/11/01, 5 days left
+
+Joke ----------------------------------------------
+Why did the scarecrow win an award? Because he was
+outstanding in his field!
+HashTag: #Funnyjokes Fun Index: ****** (6/10)
+
+News ----------------------------------------------
+Top lego builders from around the world showcase
+creations at annual masterpiece. Gallery in
+denmark.
+Billund, 2024/10/26  18:40
+
+News ----------------------------------------------
+New technological breakthrough.
+Tech city, 2024/10/26  18:40
+
+Private_ad ----------------------------------------
+Selling: A brand-new laptop.
+Actual until: 2024/11/15, 19 days left
+
+Joke ----------------------------------------------
+Why did the computer go to the doctor? It had a
+virus!
+HashTag: #Funnyjoke Fun Index: * (1/10)
+
+News ----------------------------------------------
+New technological breakthrough.
+Tech city, 2024/10/26  18:40
+
+Private_ad ----------------------------------------
+Selling a brand-new laptop..
+Actual until: 2024/11/15, 19 days left
+
+Joke ----------------------------------------------
+Why did the computer go to the doctor? It had a
+virus!
+HashTag: #Funnyjoke Fun Index: ****** (6/10)

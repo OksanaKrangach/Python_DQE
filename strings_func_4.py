@@ -47,10 +47,7 @@ def capitalize_sentences(text):
     capitalized_sentences = []
 
     for i, part in enumerate(sentences):
-        if i % 2 == 0:
-            capitalized_sentences.append(part.capitalize())
-        else:
-            capitalized_sentences.append(part)
+        capitalized_sentences.append(part.capitalize())
 
     return ''.join(capitalized_sentences)
 
